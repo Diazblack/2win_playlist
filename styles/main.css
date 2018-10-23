@@ -1,0 +1,51 @@
+body {
+  width: 98%;
+}
+.nav {
+  background-color: #2b2b2b;
+
+}
+.user_info {
+  text-align: right;
+  height: 40px;
+
+}
+
+.user_dropdown {
+  display: inline-block;
+  color: #296887;
+  vertical-align: middle;
+
+}
+
+.user_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.shares {
+  display: inline-block;
+  vertical-align: middle;
+}
+.links {
+  padding: auto 0;
+  height: 60px;
+}
+.page_links {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rec_image {
+  width: 100%;
+}
+
+.recipients {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px;
+}
+.recipient {
+  grid-column: 1 /span 1;
+  border: 1px grey solid;
+  height: auto;
+}
